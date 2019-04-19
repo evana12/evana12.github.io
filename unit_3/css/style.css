@@ -4,3 +4,6 @@ body {
 h1 {
   font-family: "Helvetica";
 }
+img {
+  width: 100%;
+}
