@@ -2,7 +2,5 @@ body {
     background: url("https://i.imgur.com/otjff0e.jpg");
     background-size: cover;
     color: white;
-}
-h1 {
-  font-family: cursive;
+    font-family: Helvetica, cursive;
 }
