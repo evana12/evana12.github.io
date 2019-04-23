@@ -3,9 +3,12 @@ body {
     background-size: cover;
     color: white;
     font-family: Helvetica, cursive;
-    text-align: left;
-
+    text-align: center;
 }
 .a {
   color: white;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
 }
