@@ -1,9 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond|Overpass);
 
 body {
-    background: url("https://i.imgur.com/otjff0e.jpg");
+    background-color: #000;
     background-size: cover;
-    color: white;
     text-align: center;
 }
 h1 {
@@ -17,11 +16,11 @@ p {
 	  margin: 2em;
 }
 .a {
-  color: white;
+    color: white;
 }
 ul {
-  margin: 0 auto;
-  width: 300px;
+    margin: 0 auto;
+    width: 300px;
 }
 #slogan {
     font-style: italic;
