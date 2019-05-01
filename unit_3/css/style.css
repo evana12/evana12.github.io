@@ -1,9 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Overpass);
+
 body {
     background: url("https://i.imgur.com/otjff0e.jpg");
     background-size: cover;
     color: white;
-    font-family: Helvetica, cursive;
     text-align: center;
+}
+h1 {
+    font-family: 'Overpass', sans-serif;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+	  font-size: 18px;
+	  line-height: 1.5em;
+	  margin: 2em;
 }
 .a {
   color: white;
