@@ -22,7 +22,34 @@ p {
 ul {
     margin: 0 auto;
     width: 300px;
+    list-style: none;
 }
 #slogan {
     font-style: italic;
+}
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+article {
+    float: left;
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    width: auto;
+}
+footer {
+    clear: both;
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+.video {
+    float: right;
 }

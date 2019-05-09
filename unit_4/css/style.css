@@ -26,3 +26,7 @@ ul {
 #slogan {
     font-style: italic;
 }
+.documentation-logo-image {
+    width: 60%;
+    margin: 30px;
+}
