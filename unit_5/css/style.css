@@ -6,6 +6,32 @@ body {
     text-align: center;
     color: white;
 }
+nav {
+    background-color: #1b9dd0;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.8em;
+    float: right;
+}
+nav a {
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 20px;
+    margin: 1.8em;
+}
+a:hover {
+    background-color: #8ec641;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
 h1 {
     font-family: 'Overpass', sans-serif;
 }
@@ -29,11 +55,6 @@ ul {
 }
 header {
     background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-}
-nav {
-    background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
 }
