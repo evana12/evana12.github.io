@@ -22,24 +22,12 @@ nav a {
 	padding: 1%;
 	transition: all 0.3s ease-in-out;
 }
-nav a::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    border-radius: 4px;
-    box-shadow: #000;
-    transition: opacity 0.2s ease-in-out;
-}
 nav a:hover {
   transform: scale(1.04, 1.04);
-  box-shadow: 0 .5px 10px #000;
   border-radius: 4px;
   cursor: pointer;
-  color: #1b9dd0;
-  background-color: rgba(250,250,250,.8);
+  color: #fff;
+  background-color: rgba(102, 182, 214,.8);
 }
 
 /* Fade in the pseudo-element with the bigger shadow */
@@ -79,7 +67,7 @@ ul {
 li {
   	width: 50%;
   	height: 15em;
-  	outline: 3px solid #222;
+  	outline: 1px solid #222;
   	text-align: center;
   	line-height: 6em;
   	color: #000;
@@ -96,7 +84,7 @@ header {
 }
 footer {
     clear: both;
-    background-color: #FF957E;
+    background-color: #222222;
     padding: 2%;
 }
 .video {
